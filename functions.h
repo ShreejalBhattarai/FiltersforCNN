@@ -13,4 +13,6 @@ void importImage(png::image<png::gray_pixel>& img, const std::string& filename);
 int get_width(const png::image<png::gray_pixel>& img);
 int get_height(const png::image<png::gray_pixel>& img);
 
+png::image<png::gray_pixel> meanblur(png::image<png::gray_pixel>& input, int kernelsize);
+
 #endif

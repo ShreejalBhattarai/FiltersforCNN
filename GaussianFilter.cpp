@@ -14,5 +14,11 @@ int main() {
 
     cout << "Width and Height: " << width << " x " << height << endl;
 
+
+    // Apply mean blur
+    auto blurred = meanblur(input, 3);
+    blurred.write("mean_blur_output.png");
+
+    cout << "Image processed and saved as mean_blur_output.png" << endl;
     return 0;
 }
