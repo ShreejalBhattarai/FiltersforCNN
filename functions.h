@@ -14,5 +14,7 @@ int get_width(const png::image<png::gray_pixel>& img);
 int get_height(const png::image<png::gray_pixel>& img);
 
 png::image<png::gray_pixel> meanblur(png::image<png::gray_pixel>& input, int kernelsize);
+void generateGaussianKernel(float kernel[5][5], int size, float sigma);
+png::image<png::gray_pixel> gaussianBlur(png::image<png::gray_pixel>& input, int kernelsize = 5, float sigma = 1.0f);
 
 #endif
