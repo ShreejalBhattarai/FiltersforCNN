@@ -6,12 +6,10 @@ cmake_minimum_required(VERSION 3.15 FATAL_ERROR)
 project(ImageFiltersForCNN LANGUAGES CXX)
 
 # Find the required external libraries: PNG and ZLIB.
-# REQUIRED means CMake will stop if these packages are not found.
 find_package(PNG REQUIRED)
 find_package(ZLIB REQUIRED)
 
 # Add the executable target for your application.
-# IMPORTANT: Update the source file paths to include the 'src/' prefix.
 add_executable(image_blur_app
     src/functions.cpp
     src/GaussianFilter.cpp
