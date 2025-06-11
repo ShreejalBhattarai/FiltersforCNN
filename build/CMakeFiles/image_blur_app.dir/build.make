@@ -69,44 +69,44 @@ include CMakeFiles/image_blur_app.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/image_blur_app.dir/flags.make
 
-CMakeFiles/image_blur_app.dir/functions.cpp.o: CMakeFiles/image_blur_app.dir/flags.make
-CMakeFiles/image_blur_app.dir/functions.cpp.o: /home/shreejal/Documents/Projects/Filters/FiltersforCNN/functions.cpp
-CMakeFiles/image_blur_app.dir/functions.cpp.o: CMakeFiles/image_blur_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shreejal/Documents/Projects/Filters/FiltersforCNN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image_blur_app.dir/functions.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_blur_app.dir/functions.cpp.o -MF CMakeFiles/image_blur_app.dir/functions.cpp.o.d -o CMakeFiles/image_blur_app.dir/functions.cpp.o -c /home/shreejal/Documents/Projects/Filters/FiltersforCNN/functions.cpp
+CMakeFiles/image_blur_app.dir/src/functions.cpp.o: CMakeFiles/image_blur_app.dir/flags.make
+CMakeFiles/image_blur_app.dir/src/functions.cpp.o: /home/shreejal/Documents/Projects/Filters/FiltersforCNN/src/functions.cpp
+CMakeFiles/image_blur_app.dir/src/functions.cpp.o: CMakeFiles/image_blur_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shreejal/Documents/Projects/Filters/FiltersforCNN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image_blur_app.dir/src/functions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_blur_app.dir/src/functions.cpp.o -MF CMakeFiles/image_blur_app.dir/src/functions.cpp.o.d -o CMakeFiles/image_blur_app.dir/src/functions.cpp.o -c /home/shreejal/Documents/Projects/Filters/FiltersforCNN/src/functions.cpp
 
-CMakeFiles/image_blur_app.dir/functions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_blur_app.dir/functions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shreejal/Documents/Projects/Filters/FiltersforCNN/functions.cpp > CMakeFiles/image_blur_app.dir/functions.cpp.i
+CMakeFiles/image_blur_app.dir/src/functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_blur_app.dir/src/functions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shreejal/Documents/Projects/Filters/FiltersforCNN/src/functions.cpp > CMakeFiles/image_blur_app.dir/src/functions.cpp.i
 
-CMakeFiles/image_blur_app.dir/functions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_blur_app.dir/functions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shreejal/Documents/Projects/Filters/FiltersforCNN/functions.cpp -o CMakeFiles/image_blur_app.dir/functions.cpp.s
+CMakeFiles/image_blur_app.dir/src/functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_blur_app.dir/src/functions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shreejal/Documents/Projects/Filters/FiltersforCNN/src/functions.cpp -o CMakeFiles/image_blur_app.dir/src/functions.cpp.s
 
-CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o: CMakeFiles/image_blur_app.dir/flags.make
-CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o: /home/shreejal/Documents/Projects/Filters/FiltersforCNN/GaussianFilter.cpp
-CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o: CMakeFiles/image_blur_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shreejal/Documents/Projects/Filters/FiltersforCNN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o -MF CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o.d -o CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o -c /home/shreejal/Documents/Projects/Filters/FiltersforCNN/GaussianFilter.cpp
+CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o: CMakeFiles/image_blur_app.dir/flags.make
+CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o: /home/shreejal/Documents/Projects/Filters/FiltersforCNN/src/GaussianFilter.cpp
+CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o: CMakeFiles/image_blur_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shreejal/Documents/Projects/Filters/FiltersforCNN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o -MF CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o.d -o CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o -c /home/shreejal/Documents/Projects/Filters/FiltersforCNN/src/GaussianFilter.cpp
 
-CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shreejal/Documents/Projects/Filters/FiltersforCNN/GaussianFilter.cpp > CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.i
+CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shreejal/Documents/Projects/Filters/FiltersforCNN/src/GaussianFilter.cpp > CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.i
 
-CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shreejal/Documents/Projects/Filters/FiltersforCNN/GaussianFilter.cpp -o CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.s
+CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shreejal/Documents/Projects/Filters/FiltersforCNN/src/GaussianFilter.cpp -o CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.s
 
 # Object files for target image_blur_app
 image_blur_app_OBJECTS = \
-"CMakeFiles/image_blur_app.dir/functions.cpp.o" \
-"CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o"
+"CMakeFiles/image_blur_app.dir/src/functions.cpp.o" \
+"CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o"
 
 # External object files for target image_blur_app
 image_blur_app_EXTERNAL_OBJECTS =
 
-image_blur_app: CMakeFiles/image_blur_app.dir/functions.cpp.o
-image_blur_app: CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o
+image_blur_app: CMakeFiles/image_blur_app.dir/src/functions.cpp.o
+image_blur_app: CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o
 image_blur_app: CMakeFiles/image_blur_app.dir/build.make
 image_blur_app: CMakeFiles/image_blur_app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shreejal/Documents/Projects/Filters/FiltersforCNN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable image_blur_app"

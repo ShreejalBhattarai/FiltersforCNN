@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/shreejal/Documents/Projects/Filters/FiltersforCNN
+CXX_INCLUDES = -I/home/shreejal/Documents/Projects/Filters/FiltersforCNN/src
 
 CXX_FLAGS = -std=c++11
 

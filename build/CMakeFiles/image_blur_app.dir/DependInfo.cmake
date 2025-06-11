@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shreejal/Documents/Projects/Filters/FiltersforCNN/GaussianFilter.cpp" "CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o" "gcc" "CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o.d"
-  "/home/shreejal/Documents/Projects/Filters/FiltersforCNN/functions.cpp" "CMakeFiles/image_blur_app.dir/functions.cpp.o" "gcc" "CMakeFiles/image_blur_app.dir/functions.cpp.o.d"
+  "/home/shreejal/Documents/Projects/Filters/FiltersforCNN/src/GaussianFilter.cpp" "CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o" "gcc" "CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o.d"
+  "/home/shreejal/Documents/Projects/Filters/FiltersforCNN/src/functions.cpp" "CMakeFiles/image_blur_app.dir/src/functions.cpp.o" "gcc" "CMakeFiles/image_blur_app.dir/src/functions.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

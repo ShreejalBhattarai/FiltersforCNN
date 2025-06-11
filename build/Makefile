@@ -129,53 +129,53 @@ image_blur_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/build
 .PHONY : image_blur_app/fast
 
-GaussianFilter.o: GaussianFilter.cpp.o
-.PHONY : GaussianFilter.o
+src/GaussianFilter.o: src/GaussianFilter.cpp.o
+.PHONY : src/GaussianFilter.o
 
 # target to build an object file
-GaussianFilter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.o
-.PHONY : GaussianFilter.cpp.o
+src/GaussianFilter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.o
+.PHONY : src/GaussianFilter.cpp.o
 
-GaussianFilter.i: GaussianFilter.cpp.i
-.PHONY : GaussianFilter.i
+src/GaussianFilter.i: src/GaussianFilter.cpp.i
+.PHONY : src/GaussianFilter.i
 
 # target to preprocess a source file
-GaussianFilter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.i
-.PHONY : GaussianFilter.cpp.i
+src/GaussianFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.i
+.PHONY : src/GaussianFilter.cpp.i
 
-GaussianFilter.s: GaussianFilter.cpp.s
-.PHONY : GaussianFilter.s
+src/GaussianFilter.s: src/GaussianFilter.cpp.s
+.PHONY : src/GaussianFilter.s
 
 # target to generate assembly for a file
-GaussianFilter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/GaussianFilter.cpp.s
-.PHONY : GaussianFilter.cpp.s
+src/GaussianFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/src/GaussianFilter.cpp.s
+.PHONY : src/GaussianFilter.cpp.s
 
-functions.o: functions.cpp.o
-.PHONY : functions.o
+src/functions.o: src/functions.cpp.o
+.PHONY : src/functions.o
 
 # target to build an object file
-functions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/functions.cpp.o
-.PHONY : functions.cpp.o
+src/functions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/src/functions.cpp.o
+.PHONY : src/functions.cpp.o
 
-functions.i: functions.cpp.i
-.PHONY : functions.i
+src/functions.i: src/functions.cpp.i
+.PHONY : src/functions.i
 
 # target to preprocess a source file
-functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/functions.cpp.i
-.PHONY : functions.cpp.i
+src/functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/src/functions.cpp.i
+.PHONY : src/functions.cpp.i
 
-functions.s: functions.cpp.s
-.PHONY : functions.s
+src/functions.s: src/functions.cpp.s
+.PHONY : src/functions.s
 
 # target to generate assembly for a file
-functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/functions.cpp.s
-.PHONY : functions.cpp.s
+src/functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_blur_app.dir/build.make CMakeFiles/image_blur_app.dir/src/functions.cpp.s
+.PHONY : src/functions.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... image_blur_app"
-	@echo "... GaussianFilter.o"
-	@echo "... GaussianFilter.i"
-	@echo "... GaussianFilter.s"
-	@echo "... functions.o"
-	@echo "... functions.i"
-	@echo "... functions.s"
+	@echo "... src/GaussianFilter.o"
+	@echo "... src/GaussianFilter.i"
+	@echo "... src/GaussianFilter.s"
+	@echo "... src/functions.o"
+	@echo "... src/functions.i"
+	@echo "... src/functions.s"
 .PHONY : help
 
 

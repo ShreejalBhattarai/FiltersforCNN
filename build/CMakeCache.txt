@@ -198,15 +198,6 @@ ImageFiltersForCNN_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 ImageFiltersForCNN_SOURCE_DIR:STATIC=/home/shreejal/Documents/Projects/Filters/FiltersforCNN
 
-//Value Computed by CMake
-ImageFiltersforCNN_BINARY_DIR:STATIC=/home/shreejal/Documents/Projects/Filters/FiltersforCNN/build
-
-//Value Computed by CMake
-ImageFiltersforCNN_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-ImageFiltersforCNN_SOURCE_DIR:STATIC=/home/shreejal/Documents/Projects/Filters/FiltersforCNN
-
 //Path to a library.
 PNG_LIBRARY_DEBUG:FILEPATH=PNG_LIBRARY_DEBUG-NOTFOUND
 
